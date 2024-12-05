@@ -3,6 +3,6 @@ from .views import *
 
 urlpatterns = [
     path('', platform),
-    path('games/', shop),
-    path('cart/', cart),
+    path('platform/games/', shop),
+    path('platform/cart/', cart),
 ]
